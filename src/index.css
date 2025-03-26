@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+
+/* Optionally, add custom styles here to override Tailwind or add specific styles */
+/* You might not need this if you're only using Tailwind classes */
+
+.viewport canvas.drawingBuffer,
+.viewport canvas.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important; /* Important: Override inline styles */
+  height: 100% !important; /* Important: Override inline styles */
+  z-index: 2; /* Ensure it's above the video */
+}
+
+.viewport video {
+  width: 100%;
+  height: auto;
+  display: block; /* Remove any extra spacing */
+}
