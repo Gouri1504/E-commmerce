@@ -1,5 +1,6 @@
 # Simplified Product Display Web Application
 
+**Deployment Link:-** https://lovely-concha-39a5f4.netlify.app/
 ## 🎯 Objective
 
 This project is a responsive web application designed to showcase products such as shoes or apparel. The primary focus is on frontend development, UI design, and user interaction. Backend integration and barcode scanning have been implemented as optional enhancements.
@@ -15,9 +16,7 @@ This project is a responsive web application designed to showcase products such 
 ### Backend & Data
 
 *   **FakeStoreAPI:** Integrated with a public API to fetch product data dynamically for demonstration purposes.
-*   **Node.js (Optional):**  A JavaScript runtime for building scalable backend servers.
-*   **REST APIs (Optional):**  Implemented for CRUD operations on product data and cart management.
-*   **MongoDB (Optional):**  A NoSQL database used for persistent storage of product and cart data.
+
 
 ### Web-Based Barcode Scanner (Optional)
 
@@ -68,7 +67,7 @@ This project is a responsive web application designed to showcase products such 
 1.  **Clone the repository:**
 
     ```bash
-    git clone <your-repository-url>
+    git clone <https://github.com/Gouri1504/E-commmerce>
     ```
 
 2.  **Navigate to the project directory:**
